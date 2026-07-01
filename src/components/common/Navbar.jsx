@@ -39,28 +39,28 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="flex items-center gap-4 md:hidden">
-            <div className="md:w-10 md:h-10 sm:w-8 sm:h-8 w-7 h-7 cursor-pointer border rounded-md border-white flex items-center justify-center">
+            <a target="-blank" href="https://twitter.com/"  className="md:w-10 md:h-10 sm:w-8 sm:h-8 w-7 h-7 cursor-pointer border rounded-md border-white flex items-center justify-center">
               <Icons icon={"twitter"}  />
-            </div>
-            <div className="md:w-10 md:h-10 sm:w-8 sm:h-8 w-7 h-7 cursor-pointer border rounded-md border-white flex items-center justify-center">
+            </a>
+            <a target="-blank" href="https://web.telegram.org/k/" className="md:w-10 md:h-10 sm:w-8 sm:h-8 w-7 h-7 cursor-pointer border rounded-md border-white flex items-center justify-center">
               <Icons icon={"telegram"} />
-            </div>
-            <div className="md:w-10 md:h-10 sm:w-8 sm:h-8 w-7 h-7 cursor-pointer border rounded-md border-white flex items-center justify-center">
+            </a>
+            <a target="-blank" href="https://discord.com/" className="md:w-10 md:h-10 sm:w-8 sm:h-8 w-7 h-7 cursor-pointer border rounded-md border-white flex items-center justify-center">
               <Icons icon={"descord"} />
-            </div>
+            </a>
           </div>
         </div>
 
         <div className="flex items-center gap-4 max-md:hidden">
-          <div className="w-10 h-10 border rounded-md cursor-pointer border-white flex items-center justify-center">
+          <a target="-blank" href="https://twitter.com/" className="w-10 h-10 border rounded-md cursor-pointer border-white flex items-center justify-center">
             <Icons icon={"twitter"} />
-          </div>
-          <div className="w-10 h-10 border rounded-md cursor-pointer border-white flex items-center justify-center">
+          </a>
+          <a target="-blank" href="https://web.telegram.org/k/" className="w-10 h-10 border rounded-md cursor-pointer border-white flex items-center justify-center">
             <Icons icon={"telegram"} />
-          </div>
-          <div className="w-10 h-10 border rounded-md cursor-pointer border-white flex items-center justify-center">
+          </a>
+          <a target="-blank" href="https://discord.com/" className="w-10 h-10 border rounded-md cursor-pointer border-white flex items-center justify-center">
             <Icons icon={"descord"} />
-          </div>
+          </a>
         </div>
 
         <div className="flex flex-row items-center md:hidden sm:gap-5 gap-3">

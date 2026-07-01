@@ -39,15 +39,15 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center gap-4 mb-10 sm:mb-12.5">
-          <div className="w-10 h-10 border rounded-md border-white flex items-center justify-center">
+          <a target="-blank" href="https://twitter.com/" className="w-10 h-10 border rounded-md border-white flex items-center justify-center">
             <Icons icon={"twitter"} />
-          </div>
-          <div className="w-10 h-10 border rounded-md border-white flex items-center justify-center">
+          </a>
+          <a target="-blank" href="https://web.telegram.org/k/"  className="w-10 h-10 border rounded-md border-white flex items-center justify-center">
             <Icons icon={"telegram"} />
-          </div>
-          <div className="w-10 h-10 border rounded-md border-white flex items-center justify-center">
+          </a>
+          <a target="-blank" href="https://discord.com/" className="w-10 h-10 border rounded-md border-white flex items-center justify-center">
             <Icons icon={"descord"} />
-          </div>
+          </a>
         </div>
       </div>
 
