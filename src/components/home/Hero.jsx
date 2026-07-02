@@ -2,9 +2,9 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="min-h-202.5 bg-[url('/assets/image/hero-bg.webp')] bg-center bg-no-repeat bg-cover relative">
+    <section className="min-h-202.5 bg-[url('/assets/image/webp/hero-bg.webp')] bg-center bg-no-repeat bg-cover relative">
       <img
-        src="/assets/image/frog.webp"
+        src="/assets/image/webp/frog.webp"
         className=" absolute w-[154.12px] h-[154.81px] top-34 left-0 max-lg:hidden "
         alt="hero-left"
       />
@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
           <button>
             <img
-              src="/assets/image/button.webp"
+              src="/assets/image/webp/button.webp"
               className="lg:w-[170.81px] md:w-30 w-25 lg:h-[76.29px] md:h-14 h-11 bg-dark-brown rounded-2xl transition-all duration-300 hover:shadow-[0_0_20px_6px_rgba(250,204,21,0.6)] cursor-pointer"
               alt="hero-btn"
             />
@@ -27,8 +27,8 @@ const Hero = () => {
 
         <div>
           <img
-            src="/assets/image/hero.webp"
-            className="min:[1400px]:w-177 xl:w-170 2xl:h-180 xl:h-170 object-center object-contain"
+            src="/assets/image/webp/hero.webp"
+            className="min:[1400px]:w-177 xl:w-170 2xl:h-180 xl:h-170 object-center object-contain "
             alt="hero-miner"
           />
         </div>

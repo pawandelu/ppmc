@@ -8,7 +8,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   const path = useLocation().pathname;
-  console.log(path);
+ 
 
   useEffect(() => {
     document.body.style.overflow = nav ? "hidden" : "auto";
@@ -19,8 +19,8 @@ const Navbar = () => {
         <Link to="/">
           <img
             className="md:w-29.75 md:h-11.75 sm:w-25 sm:h-9 w-22 h-8 cursor-pointer"
-            src="/assets/image/logo.webp"
-            alt=""
+            src="/assets/image/webp/logo.webp"
+            alt="PPMC-img"
           />
         </Link>
 
@@ -39,26 +39,50 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="flex items-center gap-4 md:hidden">
-            <a target="-blank" href="https://twitter.com/"  className="md:w-10 md:h-10 sm:w-8 sm:h-8 w-7 h-7 cursor-pointer border rounded-md border-white flex items-center justify-center">
-              <Icons icon={"twitter"}  />
+            <a
+              target="_blank"
+              href="https://twitter.com/"
+              className="md:w-10 md:h-10 sm:w-8 sm:h-8 w-7 h-7 cursor-pointer border rounded-md border-white flex items-center justify-center  hover:scale-110 duration-200 transition-all"
+            >
+              <Icons icon={"twitter"} />
             </a>
-            <a target="-blank" href="https://web.telegram.org/k/" className="md:w-10 md:h-10 sm:w-8 sm:h-8 w-7 h-7 cursor-pointer border rounded-md border-white flex items-center justify-center">
+            <a
+              target="_blank"
+              href="https://web.telegram.org/k/"
+              className="md:w-10 md:h-10 sm:w-8 sm:h-8 w-7 h-7 cursor-pointer border rounded-md border-white flex items-center justify-center  hover:scale-110 duration-200 transition-all"
+            >
               <Icons icon={"telegram"} />
             </a>
-            <a target="-blank" href="https://discord.com/" className="md:w-10 md:h-10 sm:w-8 sm:h-8 w-7 h-7 cursor-pointer border rounded-md border-white flex items-center justify-center">
+            <a
+              target="_blank"
+              href="https://discord.com/"
+              className="md:w-10 md:h-10 sm:w-8 sm:h-8 w-7 h-7 cursor-pointer border rounded-md border-white flex items-center justify-center  hover:scale-110 duration-200 transition-all"
+            >
               <Icons icon={"descord"} />
             </a>
           </div>
         </div>
 
         <div className="flex items-center gap-4 max-md:hidden">
-          <a target="-blank" href="https://twitter.com/" className="w-10 h-10 border rounded-md cursor-pointer border-white flex items-center justify-center">
+          <a
+            target="_blank"
+            href="https://twitter.com/"
+            className="w-10 h-10 border rounded-md cursor-pointer border-white flex items-center justify-center  hover:scale-110 duration-300 transition-all"
+          >
             <Icons icon={"twitter"} />
           </a>
-          <a target="-blank" href="https://web.telegram.org/k/" className="w-10 h-10 border rounded-md cursor-pointer border-white flex items-center justify-center">
+          <a
+            target="_blank"
+            href="https://web.telegram.org/k/"
+            className="w-10 h-10 border rounded-md cursor-pointer border-white flex items-center justify-center  hover:scale-110 duration-300 transition-all"
+          >
             <Icons icon={"telegram"} />
           </a>
-          <a target="-blank" href="https://discord.com/" className="w-10 h-10 border rounded-md cursor-pointer border-white flex items-center justify-center">
+          <a
+            target="_blank"
+            href="https://discord.com/"
+            className="w-10 h-10 border rounded-md cursor-pointer border-white flex items-center justify-center  hover:scale-110 duration-300 transition-all"
+          >
             <Icons icon={"descord"} />
           </a>
         </div>

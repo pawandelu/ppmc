@@ -4,13 +4,12 @@ import Heading from "./Heading";
 import Icons from "./Icons";
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
   return (
     <section className="pt-12 sm:pt-17.5 pb-7 sm:pb-[30.34px] bg-dark-brown flex flex-col justify-center">
       <div className="max-w-360 w-full mx-auto flex flex-col items-center justify-center">
         <img
-          src="/assets/image/logo.webp"
-          className="w-[197.66px] h-[77.66px] mb-5 sm:mb-8 md:mb-10"
+          src="public/assets/image/webp/logo.webp"
+          className="w-[197.66px] h-[77.66px] mb-5 sm:mb-8 md:mb-10 cursor-po"
           alt="pepe-logo"
         />
 
@@ -39,13 +38,25 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center gap-4 mb-10 sm:mb-12.5">
-          <a target="-blank" href="https://twitter.com/" className="w-10 h-10 border rounded-md border-white flex items-center justify-center">
+          <a
+            target="_blank"
+            href="https://twitter.com/"
+            className="w-10 h-10 border rounded-md border-white flex items-center justify-center hover:scale-120 duration-300 transition-all"
+          >
             <Icons icon={"twitter"} />
           </a>
-          <a target="-blank" href="https://web.telegram.org/k/"  className="w-10 h-10 border rounded-md border-white flex items-center justify-center">
+          <a
+            target="_blank"
+            href="https://web.telegram.org/k/"
+            className="w-10 h-10 border rounded-md border-white flex items-center justify-center  hover:scale-120 duration-300 transition-all"
+          >
             <Icons icon={"telegram"} />
           </a>
-          <a target="-blank" href="https://discord.com/" className="w-10 h-10 border rounded-md border-white flex items-center justify-center">
+          <a
+            target="_blank"
+            href="https://discord.com/"
+            className="w-10 h-10 border rounded-md border-white flex items-center justify-center  hover:scale-120 duration-300 transition-all"
+          >
             <Icons icon={"descord"} />
           </a>
         </div>
@@ -54,7 +65,7 @@ const Footer = () => {
       <div className="border border-taupe-gray mb-5 sm:mb-7.5"></div>
 
       <span className="sans font-semibold text-sm sm:text-base leading-[140%] text-warm-gray text-center">
-        Copyright©{currentYear}PEPE Mining Company@.com. All rights reserved
+        © {new Date().getFullYear()} PEPE Mining Company. All rights reserved.
       </span>
     </section>
   );
